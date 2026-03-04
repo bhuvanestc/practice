@@ -1,11 +1,9 @@
-/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body - full page background and centering */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -15,7 +13,6 @@ body {
   align-items: center;
 }
 
-/* Container - the white box */
 .container {
   background: white;
   padding: 40px;
@@ -25,15 +22,12 @@ body {
   width: 90%;
   text-align: center;
 }
-
-/* Heading */
 h1 {
   color: #667eea;
   margin-bottom: 30px;
   font-size: 32px;
 }
 
-/* Quote display area */
 #quoteDisplay {
   background: #f7f7f7;
   padding: 30px;
@@ -42,7 +36,6 @@ h1 {
   min-height: 150px;
 }
 
-/* Quote text */
 #quoteText {
   font-size: 20px;
   color: #333;
@@ -57,7 +50,6 @@ h1 {
   font-style: italic;
 }
 
-/* Button */
 #newQuoteBtn {
   background: #667eea;
   color: white;
@@ -69,14 +61,12 @@ h1 {
   transition: all 0.3s;
 }
 
-/* Button hover effect */
 #newQuoteBtn:hover {
   background: #764ba2;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Button active (when clicked) */
 #newQuoteBtn:active {
   transform: translateY(0);
 }
